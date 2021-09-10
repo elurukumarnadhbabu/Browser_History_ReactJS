@@ -12,7 +12,7 @@ const BrowserTodo = props => {
       <div className="browser-start">
         <p className="browser-time">{timeAccessed}</p>
         <div className="browser-middle">
-          <img src={logoUrl} alt="app logo" className="destination-image" />
+          <img src={logoUrl} alt="domain logo" className="destination-image" />
           <p className="browser-title">{title}</p>
           <p className="name">{domainUrl}</p>
         </div>
